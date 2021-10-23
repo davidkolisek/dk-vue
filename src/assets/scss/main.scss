@@ -1,0 +1,45 @@
+@import 'base/index';
+
+body,html{
+  width:100%;
+  margin: 0 0 40px 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+#app {
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width:100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.main-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -10px;
+  .main-col{
+      flex: 1 1 120px;
+        margin: 10px;
+  }   
+}
+
+.main-label {
+  text-transform: uppercase;
+  color: #ccc;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 .5rem;
+}
