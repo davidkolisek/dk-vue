@@ -3,7 +3,7 @@
     <div class="main-container">
       <div class="header-wrapper">
         <div>
-          <img src="../../assets/me.jpg" alt="" />
+          <img src="../../assets/images/me.jpg" alt="" />
         </div>
         <div>
           <span>{{ subtitle }}</span>
@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .main-header {
-  /* border-radius: 30% 70% 78% 22% / 0% 0% 100% 100%; */
+  border-radius: 30% 70% 78% 22% / 0% 0% 100% 100%;
   max-width: 768px;
   margin: 0 auto;
   .main-container {

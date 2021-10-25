@@ -33,6 +33,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   background: #fff;
+  z-index: 10;
   @media (min-width: 576px) {
     max-width: 320px;
     left: calc(50% - 160px);
